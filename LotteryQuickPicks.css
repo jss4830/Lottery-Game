@@ -1,0 +1,41 @@
+.root {
+     -fx-font-weight: bold;
+     -fx-font-size: 12pt;
+}
+
+.radio-button {
+	-fx-color: white;
+}
+
+#rygp {
+     -fx-border-color: black;
+     -fx-text-fill: white;
+     -fx-padding: 5px;
+}
+
+.strange-color {
+     -fx-text-fill: pink;
+}
+
+#rbgreen {
+     -fx-text-fill: green;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#aboutPane {
+     -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+     -fx-text-fill: white;
+     -fx-padding: 5px;
+}
+
